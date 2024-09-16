@@ -1,0 +1,24 @@
+class Tester {
+	public static void main(String[] args) {
+		// Implement your code here 
+		double a=1;
+		double b=4;
+		double c=6;
+		double desc=(b*b)-4*a*c;
+		double x1=(-b+desc)/(2*a);
+		double x2=(-b-desc)/(2*a);
+		if(desc==0)
+		{
+		   System.out.println(x1);
+		}
+		else if(desc>0)
+		{
+		    System.out.println(x1+" "+x2);
+		}
+		else if(desc<0)
+		{
+		    System.out.println("The equation has no real root");
+		}
+	}
+}
+
